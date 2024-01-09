@@ -1,3 +1,5 @@
+//index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,7 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="siteheader">
@@ -92,13 +95,19 @@
                         </div>    
                         <div class="contact__form__box">
                             <i class="bx bx-envelope"></i>
-                            <input class="contact__form__box__input" type="text" placeholder="email">
+                            <!-- Add id="email" to the email input -->
+                            <input id="email" class="contact__form__box__input" type="text" placeholder="email">
+
                         </div>    
                         <div class="contact__form__box">
                             <i class="bx bx-phone"></i>
-                            <input class="contact__form__box__input" type="tel" placeholder="phone">
+                            <!-- Add id="phone" to the phone input -->
+                            <input class="contact__form__box__input" type="tel" id="phone" placeholder="phone">
+
                         </div>    
-                        <a href="#" class="ctabutton">Contact now</a> 
+                         <!-- Add id="button-contact" to the Contact now button -->
+                         <a href="#" id="button-contact" class="ctabutton">Contact now</a>
+
                     </form>
                 </div>
             </div>
