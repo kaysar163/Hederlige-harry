@@ -1,5 +1,4 @@
 // script.js
-
 //  Add event listener to the button with id "button-contact"
 document.addEventListener("DOMContentLoaded", function () {
     var contactButton = document.getElementById("button-contact");
